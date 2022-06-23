@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Secret
 metadata:
-  name: Philipp-sama123-repos-ssh-cred
+  name: philipp-sama123-repos-ssh-cred
   namespace: argocd
   labels:
     argocd.argoproj.io/secret-type: repo-creds
