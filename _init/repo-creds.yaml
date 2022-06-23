@@ -6,7 +6,7 @@ metadata:
   labels:
     argocd.argoproj.io/secret-type: repo-creds
 stringData:
-  url: ssh://git@github.com/squer-solutions/
+  url: ssh://git@github.com/Philipp-sama123/
 data:
   sshPrivateKey: $READ_SSH_KEY
 ---
