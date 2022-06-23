@@ -9,9 +9,9 @@ spec:
     namespace: apps
   project: default
   source:
-    repoURL: https://github.com/squer-solutions/infrastructure-provisioning-workshop.git
-    targetRevision: level3
-    path: $CLUSTER_NAME
+    repoURL: https://github.com/Philipp-sama123/infrastructure-provisioning-workshop.git
+    targetRevision: level2
+    path: apps
   syncPolicy:
     automated:
       selfHeal: true
