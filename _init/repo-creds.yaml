@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Secret
 metadata:
-  name: squer-repos-ssh-cred
+  name: Philipp-sama123-repos-ssh-cred
   namespace: argocd
   labels:
     argocd.argoproj.io/secret-type: repo-creds
 stringData:
-  url: ssh://git@github.com/squer-solutions/
+  url: ssh://git@github.com/Philipp-sama123/
 data:
   sshPrivateKey: $READ_SSH_KEY
 ---
