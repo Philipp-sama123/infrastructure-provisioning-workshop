@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Secret
 metadata:
-  name: squer-repos-ssh-cred
+  name: more_k8s_workshop
   namespace: argocd
   labels:
     argocd.argoproj.io/secret-type: repo-creds
